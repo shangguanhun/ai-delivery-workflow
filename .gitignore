@@ -1,0 +1,11 @@
+# 仅防止常见意外暂存；不是脱敏器或访问控制。
+_local/
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
